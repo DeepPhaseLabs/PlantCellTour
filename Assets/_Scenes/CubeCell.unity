@@ -913,6 +913,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 100068, guid: 540c798c21c9cc441b0da42797cd555c, type: 3}
+      propertyPath: m_Name
+      value: 'Mitocondria '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 540c798c21c9cc441b0da42797cd555c, type: 3}
   m_IsPrefabParent: 0
