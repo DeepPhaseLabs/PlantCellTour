@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 m_EditorVersion: 5.1.1f1
 =======
 m_EditorVersion: 5.1.2f1
 >>>>>>> origin/master
+=======
+m_EditorVersion: 5.1.1f1
+>>>>>>> origin/Triggering
 m_StandardAssetsVersion: 0
