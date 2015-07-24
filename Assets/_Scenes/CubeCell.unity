@@ -4173,7 +4173,7 @@ Transform:
   - {fileID: 835646771}
   - {fileID: 1603209335}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 7
 --- !u!1 &96020633
 GameObject:
   m_ObjectHideFlags: 0
@@ -4543,7 +4543,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
 --- !u!1 &104582711
 GameObject:
   m_ObjectHideFlags: 0
@@ -5604,7 +5604,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 130473035}
   m_Layer: 0
-  m_Name: Chloroplast
+  m_Name: Chloroplast (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25341,7 +25341,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 538479149}
   m_Layer: 0
-  m_Name: Chloroplast (3)
+  m_Name: Chloroplast (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33921,7 +33921,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
 --- !u!1 &718982012
 GameObject:
   m_ObjectHideFlags: 0
@@ -34623,7 +34623,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 730907522}
   m_LocalRotation: {x: .137995988, y: .186246216, z: .2335013, w: .944323361}
-  m_LocalPosition: {x: 30.6545296, y: 57.5111542, z: 5.9000001}
+  m_LocalPosition: {x: 33.1925316, y: 38.6418991, z: -4.83371592}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1914055789}
@@ -34631,7 +34631,7 @@ Transform:
   - {fileID: 1159724091}
   - {fileID: 1757326281}
   - {fileID: 988414581}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1095450875}
   m_RootOrder: 0
 --- !u!1001 &734578262
 Prefab:
@@ -36946,7 +36946,7 @@ Transform:
   - {fileID: 1513574933}
   - {fileID: 1917765263}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
 --- !u!1 &783954471
 GameObject:
   m_ObjectHideFlags: 0
@@ -38815,7 +38815,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 835646771}
   m_Layer: 0
-  m_Name: Centrosome
+  m_Name: Centrosome (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39741,7 +39741,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
       propertyPath: m_Enabled
@@ -40711,7 +40711,7 @@ Transform:
   - {fileID: 1334224444}
   - {fileID: 1943589803}
   m_Father: {fileID: 1786568200}
-  m_RootOrder: 3
+  m_RootOrder: 0
 --- !u!1 &880805555
 GameObject:
   m_ObjectHideFlags: 0
@@ -41278,7 +41278,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5b4d846c2da55e94bb5202edbd3bb91a, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5b4d846c2da55e94bb5202edbd3bb91a, type: 3}
       propertyPath: m_LocalScale.x
@@ -50435,7 +50435,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 933207246}
   m_Layer: 0
-  m_Name: 'Mitocondria '
+  m_Name: Mitocondria (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51084,6 +51084,35 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1092960066}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1095450874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1095450875}
+  m_Layer: 0
+  m_Name: Lysosomes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1095450875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1095450874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.53800106, y: 18.869257, z: 10.733716}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 730907523}
+  - {fileID: 1879575522}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
 --- !u!1 &1096598898
 GameObject:
   m_ObjectHideFlags: 0
@@ -54868,7 +54897,7 @@ Transform:
   - {fileID: 1141434896}
   - {fileID: 1963575231}
   m_Father: {fileID: 1786568200}
-  m_RootOrder: 0
+  m_RootOrder: 2
 --- !u!1 &1183698282
 GameObject:
   m_ObjectHideFlags: 0
@@ -62513,7 +62542,7 @@ Transform:
   - {fileID: 1542589812}
   - {fileID: 933207246}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 8
 --- !u!1 &1348899847
 GameObject:
   m_ObjectHideFlags: 0
@@ -72323,7 +72352,7 @@ Transform:
   - {fileID: 538894698}
   - {fileID: 1464429429}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 3
 --- !u!1 &1542026853
 GameObject:
   m_ObjectHideFlags: 0
@@ -75722,7 +75751,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1603209335}
   m_Layer: 0
-  m_Name: Centrosome (1)
+  m_Name: Centrosome (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77727,7 +77756,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1653705784}
   m_Layer: 0
-  m_Name: All Chloroplasts
+  m_Name: Chloroplasts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77746,7 +77775,7 @@ Transform:
   - {fileID: 130473035}
   - {fileID: 538479149}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
 --- !u!1 &1653950496
 GameObject:
   m_ObjectHideFlags: 0
@@ -79768,7 +79797,7 @@ Transform:
   - {fileID: 1475086807}
   - {fileID: 293360879}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
 --- !u!1 &1696555821
 GameObject:
   m_ObjectHideFlags: 0
@@ -84055,12 +84084,12 @@ Transform:
   m_LocalPosition: {x: -39.2607689, y: -241.149139, z: 18.7781906}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1182884151}
-  - {fileID: 55974209}
-  - {fileID: 1905856891}
   - {fileID: 873865254}
+  - {fileID: 55974209}
+  - {fileID: 1182884151}
+  - {fileID: 1905856891}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
 --- !u!1 &1789275982
 GameObject:
   m_ObjectHideFlags: 0
@@ -88476,7 +88505,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1879575522}
   m_Layer: 0
-  m_Name: lysosome
+  m_Name: lysosome (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88489,7 +88518,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1879575521}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.6545296, y: 57.5111542, z: 59.2500496}
+  m_LocalPosition: {x: 33.1925316, y: 38.6418991, z: 48.5163345}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 459040933}
@@ -88497,7 +88526,7 @@ Transform:
   - {fileID: 220927397}
   - {fileID: 1716301050}
   - {fileID: 336147430}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1095450875}
   m_RootOrder: 1
 --- !u!1 &1879980212
 GameObject:
@@ -89782,7 +89811,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1905856891}
   m_Layer: 0
-  m_Name: ribosome group
+  m_Name: ribosome group (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89808,7 +89837,7 @@ Transform:
   - {fileID: 1667259589}
   - {fileID: 659249137}
   m_Father: {fileID: 1786568200}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!1 &1906953014
 GameObject:
   m_ObjectHideFlags: 0
@@ -90155,7 +90184,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1917765263}
   m_Layer: 0
-  m_Name: golgi
+  m_Name: golgi (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93035,7 +93064,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400028, guid: e0a278769fd35ee47a6c6c731f3559c8, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 100028, guid: e0a278769fd35ee47a6c6c731f3559c8, type: 3}
       propertyPath: m_Name
@@ -95659,7 +95688,7 @@ Transform:
   - {fileID: 1668694963}
   - {fileID: 1461470044}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 1
 --- !u!1 &2050439627
 GameObject:
   m_ObjectHideFlags: 0
@@ -99947,7 +99976,7 @@ Transform:
   - {fileID: 1374735686}
   - {fileID: 1368978475}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 2
 --- !u!1 &2146013571
 GameObject:
   m_ObjectHideFlags: 0
