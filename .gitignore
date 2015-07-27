@@ -7,6 +7,7 @@
 [Bb]uild/
 UnityGenerated/
 Assets/AssetStoreTools*
+ProjectSettings/ProjectVersion.txt
 
  ===================================== #
 # Visual Studio / MonoDevelop generated #
