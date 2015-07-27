@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Color_K11
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 7af608fe56eeb1c409558422ade94457, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -93,6 +93,10 @@ Material:
         second: .5
       data:
         first:
+          name: _Shininess
+        second: .699999988
+      data:
+        first:
           name: _Parallax
         second: .0199999996
       data:
@@ -135,4 +139,12 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .75, g: 0, b: .75, a: 1}
+        second: {r: .282758713, g: 0, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}

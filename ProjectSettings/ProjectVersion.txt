@@ -1,2 +1,5 @@
+<<<<<<< HEAD
 m_EditorVersion: 5.1.1p4
+=======
+>>>>>>> master
 m_StandardAssetsVersion: 0
