@@ -41438,6 +41438,10 @@ Prefab:
       propertyPath: m_Name
       value: Vacuole
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 5b4d846c2da55e94bb5202edbd3bb91a, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5b4d846c2da55e94bb5202edbd3bb91a, type: 3}
   m_IsPrefabParent: 0
