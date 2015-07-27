@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: wall_blue
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _DETAIL_MULX2 _NORMALMAP
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _NORMALMAP
   m_LightmapFlags: 5
   m_CustomRenderQueue: 3000
   stringTagMap:
@@ -20,8 +20,8 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 43853d8a05decba4fad4a575c71d61c1, type: 3}
-          m_Scale: {x: 3.27999997, y: 2.3499999}
+          m_Texture: {fileID: 2800000, guid: fb6566c21f717904f83743a5a76dd0b0, type: 3}
+          m_Scale: {x: 2, y: 2}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -33,13 +33,6 @@ Material:
       data:
         first:
           name: _DetailNormalMap
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _ColorControl
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -63,7 +56,7 @@ Material:
           name: _EmissionMap
         second:
           m_Texture: {fileID: 0}
-          m_Scale: {x: 3.27999997, y: 2.3499999}
+          m_Scale: {x: 2, y: 2}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -76,7 +69,7 @@ Material:
         first:
           name: _DetailAlbedoMap
         second:
-          m_Texture: {fileID: 2800000, guid: 5485e2f56028a3c4cb54f5caa167377e, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -89,6 +82,13 @@ Material:
       data:
         first:
           name: _SpecGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColorControl
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -108,10 +108,6 @@ Material:
         second: .0399999991
       data:
         first:
-          name: _WaveScale
-        second: .0700000003
-      data:
-        first:
           name: _Parallax
         second: .0500000007
       data:
@@ -121,7 +117,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: 0
+        second: .540000021
       data:
         first:
           name: _BumpScale
@@ -145,7 +141,11 @@ Material:
       data:
         first:
           name: _Metallic
-        second: .479999989
+        second: .370000005
+      data:
+        first:
+          name: _WaveScale
+        second: .0700000003
     m_Colors:
       data:
         first:
@@ -154,7 +154,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .427389711, g: .608895361, b: .683823526, a: .852999985}
+        second: {r: .132461086, g: .293267488, b: .671000004, a: 1}
       data:
         first:
           name: _SpecColor
