@@ -38823,6 +38823,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b4cfcc5c7df8474dbc475a383f4c57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &829864211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 829864202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427b038d895df454facd51aa24a3198e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  rotationSpeed: 20
+--- !u!114 &829864212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 829864202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477376ff78c7cc445838ff392214c266, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: .400000006
+  originalStartIndex: 0
+  isPhysically: 0
+  reverse: 0
+  moveOnAwake: 1
+  controlType: 1
+  offsetType: 0
+  splineWindow: {fileID: 1599381259}
+  events:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  pointOffset: {x: 0, y: 0, z: 0}
+  minOffset: {x: 0, y: 0, z: 0}
+  maxOffset: {x: 0, y: 0, z: 0}
+  arrow: {fileID: 0}
+--- !u!54 &829864213
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 829864202}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &832147337
 GameObject:
   m_ObjectHideFlags: 0
@@ -75714,6 +75778,51 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1598028647}
   m_Mesh: {fileID: 4300020, guid: dbf9c1214872123468931783592f3039, type: 3}
+--- !u!1 &1599381258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1599381260}
+  - 114: {fileID: 1599381259}
+  m_Layer: 0
+  m_Name: Spline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1599381259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1599381258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ce6495fb91f0b47944ba9976fa9edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spline: {fileID: 2101767577}
+  splineRefernce: {fileID: 11400000, guid: ee98f5a7ce42dd648b94850588afaee1, type: 2}
+  splineColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+  pointColor: {r: 1, g: 1, b: 1, a: 1}
+  handlesColor: {r: 0, g: 0, b: 1, a: 1}
+  selectedColor: {r: 0, g: 1, b: 0, a: 1}
+--- !u!4 &1599381260
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1599381258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -174.470001, y: -263.675812, z: -175.570007}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 829864203}
+  m_RootOrder: 5
 --- !u!1 &1601349405
 GameObject:
   m_ObjectHideFlags: 0
@@ -97929,6 +98038,50 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2101675714}
   m_Mesh: {fileID: 4300020, guid: dbf9c1214872123468931783592f3039, type: 3}
+--- !u!114 &2101767577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004f13b5120f2ba4f82b355eb1e305e9, type: 3}
+  m_Name: non physical demo
+  m_EditorClassIdentifier: 
+  waypoints:
+  - method: 
+    localPosition: {x: -8985.12793, y: -13084.0322, z: -3522.79053}
+    subways: 01000000
+    reversedWays: 
+    handles:
+    - {x: -9225.75977, y: -14835.6602, z: -8667.20117}
+    localHandles:
+    - {x: -9220.05957, y: -14759.8604, z: -8602.60059}
+    segments:
+    - 3.81870595e-05
+  - method: 
+    localPosition: {x: -322.459869, y: -7760.93018, z: -10275.5459}
+    subways: 02000000
+    reversedWays: 00000000
+    handles:
+    - {x: -388.735962, y: -7994.17041, z: -10336.8369}
+    - {x: -532.685547, y: -7836.72998, z: -10386.5254}
+    localHandles:
+    - {x: -383.03598, y: -7918.37061, z: -10272.2363}
+    - {x: -526.985596, y: -7760.93018, z: -10321.9248}
+    segments:
+    - 5.90091531e-06
+  - method: 
+    localPosition: {x: -20025.4609, y: -48209.9258, z: -84121.2344}
+    subways: 
+    reversedWays: 01000000
+    handles:
+    - {x: -27721.3262, y: -48183.6641, z: -84517.3906}
+    localHandles:
+    - {x: -27715.625, y: -48107.8633, z: -84452.7891}
+    segments: []
+  resolution: 2
 --- !u!1 &2102895507
 GameObject:
   m_ObjectHideFlags: 0
