@@ -2002,7 +2002,7 @@ MonoBehaviour:
   orientationTarget: {fileID: 0}
   _cameraPath: {fileID: 40522718}
   playOnStart: 0
-  animationObject: {fileID: 829864203}
+  animationObject: {fileID: 645408956}
   animationMode: 0
   orientationMode: 0
   fixedOrientaion: {x: 0, y: 0, z: 1}
