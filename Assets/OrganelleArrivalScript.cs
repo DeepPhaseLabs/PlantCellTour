@@ -2,8 +2,8 @@
 using System.Collections;
 
 public class NucleusTrigger : MonoBehaviour {
-	public GameObject Nucleus;
-
+	public GameObject Organelle;
+	public GameObject OrganelleText;
 
 	// Use this for initialization
 	void Start () {
@@ -12,6 +12,7 @@ public class NucleusTrigger : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other) {
 		Debug.Log ("Entered");
+		OrganelleText.SetActive (false);
 
 	}
 	
