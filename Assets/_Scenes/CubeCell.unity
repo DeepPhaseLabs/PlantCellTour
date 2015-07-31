@@ -99505,7 +99505,7 @@ GameObject:
   - 23: {fileID: 1854134031}
   - 114: {fileID: 1854134030}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: NucleusCubeTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
