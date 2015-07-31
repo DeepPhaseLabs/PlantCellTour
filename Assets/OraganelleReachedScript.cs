@@ -7,7 +7,7 @@ public class OraganelleReachedScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		OrganelleText.SetActive (false);
 	}
 
 	void OnTriggerEnter (Collider other) {
