@@ -7,12 +7,12 @@ public class NucleusTrigger : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		OrganelleText.SetActive (false);
 	}
 
 	void OnTriggerEnter (Collider other) {
 		Debug.Log ("Entered");
-		OrganelleText.SetActive (false);
+		OrganelleText.SetActive (true);
 
 	}
 	

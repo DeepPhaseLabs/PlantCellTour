@@ -2191,7 +2191,7 @@ MonoBehaviour:
   positionModes: 1
   givenName: Tilt Point 1
   customName: 
-  fullName: CameraPath to Nucleolus Tilt Point 1
+  fullName: CameraPath to Ribosomes Tilt Point 1
   _percent: 1
   _animationPercentage: 1
   point: {fileID: 40522708}
@@ -2216,7 +2216,7 @@ MonoBehaviour:
   positionModes: 1
   givenName: FOV Point 1
   customName: 
-  fullName: CameraPath to Nucleolus FOV Point 1
+  fullName: CameraPath to Ribosomes FOV Point 1
   _percent: 1
   _animationPercentage: 1
   point: {fileID: 40522708}
@@ -2242,7 +2242,7 @@ MonoBehaviour:
   positionModes: 1
   givenName: Orientation Point 1
   customName: 
-  fullName: CameraPath to Nucleolus Orientation Point 1
+  fullName: CameraPath to Ribosomes Orientation Point 1
   _percent: 1
   _animationPercentage: 1
   point: {fileID: 40522708}
@@ -2268,7 +2268,7 @@ MonoBehaviour:
   positionModes: 1
   givenName: Tilt Point 0
   customName: 
-  fullName: CameraPath to Nucleolus Tilt Point 0
+  fullName: CameraPath to Ribosomes Tilt Point 0
   _percent: 0
   _animationPercentage: 0
   point: {fileID: 40522709}
@@ -2293,7 +2293,7 @@ MonoBehaviour:
   positionModes: 1
   givenName: FOV Point 0
   customName: 
-  fullName: CameraPath to Nucleolus FOV Point 0
+  fullName: CameraPath to Ribosomes FOV Point 0
   _percent: 0
   _animationPercentage: 0
   point: {fileID: 40522709}
@@ -2319,7 +2319,7 @@ MonoBehaviour:
   positionModes: 1
   givenName: Orientation Point 0
   customName: 
-  fullName: CameraPath to Nucleolus Orientation Point 0
+  fullName: CameraPath to Ribosomes Orientation Point 0
   _percent: 0
   _animationPercentage: 0
   point: {fileID: 40522709}
@@ -2388,7 +2388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   givenName: Point 1
   customName: 
-  fullName: CameraPath to Nucleolus Point 1
+  fullName: CameraPath to Ribosomes Point 1
   _position: {x: 120.311592, y: -274.901672, z: -23.6178551}
   _splitControlPoints: 0
   _forwardControlPoint: {x: 20, y: 0, z: 0}
@@ -2410,7 +2410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   givenName: Point 0
   customName: 
-  fullName: CameraPath to Nucleolus Point 0
+  fullName: CameraPath to Ribosomes Point 0
   _position: {x: 110.778198, y: -276.070587, z: 2.98686981}
   _splitControlPoints: 0
   _forwardControlPoint: {x: 20, y: 0, z: 0}
@@ -2433,7 +2433,7 @@ MonoBehaviour:
   positionModes: 2
   givenName: Delay Point 1
   customName: End Point
-  fullName: CameraPath to Nucleolus Delay Point 1
+  fullName: CameraPath to Ribosomes Delay Point 1
   _percent: 1
   _animationPercentage: 1
   point: {fileID: 0}
@@ -2490,7 +2490,7 @@ MonoBehaviour:
   positionModes: 2
   givenName: Delay Point 0
   customName: Start Point
-  fullName: CameraPath to Nucleolus Delay Point 0
+  fullName: CameraPath to Ribosomes Delay Point 0
   _percent: 0
   _animationPercentage: 0
   point: {fileID: 0}
@@ -8773,6 +8773,7 @@ Transform:
   - {fileID: 546582505}
   - {fileID: 742298395}
   - {fileID: 1047967056}
+  - {fileID: 1445315598}
   m_Father: {fileID: 1786568200}
   m_RootOrder: 1
 --- !u!1 &57636378
@@ -26235,6 +26236,109 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 439539495}
   m_Mesh: {fileID: 4300022, guid: dbf9c1214872123468931783592f3039, type: 3}
+--- !u!1 &441215178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 441215182}
+  - 33: {fileID: 441215181}
+  - 65: {fileID: 441215180}
+  - 23: {fileID: 441215179}
+  - 114: {fileID: 441215183}
+  - 54: {fileID: 441215184}
+  m_Layer: 0
+  m_Name: RibosomeCubeTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &441215179
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 441215178}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &441215180
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 441215178}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &441215181
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 441215178}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &441215182
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 441215178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.9200001, y: 25, z: -3.55999994}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+--- !u!114 &441215183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 441215178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67b0c6c21ed573489b6e1c4290c94b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Organelle: {fileID: 55974208}
+  OrganelleText: {fileID: 1445315597}
+--- !u!54 &441215184
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 441215178}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &441522058
 GameObject:
   m_ObjectHideFlags: 0
@@ -46817,6 +46921,10 @@ Transform:
   - {fileID: 1943589803}
   m_Father: {fileID: 1786568200}
   m_RootOrder: 3
+--- !u!1 &878269666 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 5b4d846c2da55e94bb5202edbd3bb91a, type: 3}
+  m_PrefabInternal: {fileID: 1457646296}
 --- !u!1 &880805555
 GameObject:
   m_ObjectHideFlags: 0
@@ -78972,6 +79080,80 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1444142329}
   m_Mesh: {fileID: 4300020, guid: dbf9c1214872123468931783592f3039, type: 3}
+--- !u!1 &1445315597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1445315598}
+  - 23: {fileID: 1445315600}
+  - 102: {fileID: 1445315599}
+  m_Layer: 0
+  m_Name: RibosomeText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1445315598
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1445315597}
+  m_LocalRotation: {x: .103463165, y: .79797411, z: .123555653, w: .58074671}
+  m_LocalPosition: {x: -1.33000004, y: -1.49000001, z: 4.88999987}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 55974209}
+  m_RootOrder: 9
+--- !u!102 &1445315599
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1445315597}
+  m_Text: Ribosomes
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1445315600
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1445315597}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1446149607
 GameObject:
   m_ObjectHideFlags: 0
@@ -99315,6 +99497,7 @@ GameObject:
   - 65: {fileID: 1854134032}
   - 23: {fileID: 1854134031}
   - 114: {fileID: 1854134030}
+  - 54: {fileID: 1854134035}
   m_Layer: 0
   m_Name: NucleusCubeTrigger
   m_TagString: Untagged
@@ -99330,9 +99513,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1854134029}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641bf3b173f47054ab7f5101198ee041, type: 3}
+  m_Script: {fileID: 11500000, guid: b67b0c6c21ed573489b6e1c4290c94b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Organelle: {fileID: 878269666}
+  OrganelleText: {fileID: 295032943}
 --- !u!23 &1854134031
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -99388,6 +99573,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
+--- !u!54 &1854134035
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1854134029}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1855289517
 GameObject:
   m_ObjectHideFlags: 0
