@@ -15,8 +15,11 @@ using System.Text;
 using System.Xml;
 #endif
 
+
 public class CameraPathAnimator : MonoBehaviour
 {
+
+
     public float minimumCameraSpeed = 0.01f;
 
     public enum animationModes
