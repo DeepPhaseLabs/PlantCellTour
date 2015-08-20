@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 7b61e624c23485b47b9bf75d30ed8dc3
+timeCreated: 1440100308
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d000000
+  assetHash:
+    serializedVersion: 2
+    Hash: aaaf9cf0be94098b0ed5013d98fc3acd
+  longitude: -105.24213899999999
+  latitude: 40.018309000000002
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -11.0383253, y: 38.7844124, z: 2.06694794}
+      lookAt: {x: -11.0383253, y: -6.59313679, z: 2.06694794}
+      up: {x: 0, y: 0, z: 1}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Animal Cell
+    100002: lysasome - Copy (2)
+    100004: lysasome - Copy (2) - Copy
+    100006: lysasome - Copy (2) - Copy 1
+    100008: lysasome - Copy (2) - Copy 2
+    100010: lysasome - Copy (2) - Copy 3
+    100012: lysasome - Copy (2) 1
+    100014: lysasome - Copy (2) 2
+    100016: lysasome - Copy (2) 3
+    100018: lysasome#1
+    100020: lysasome#1 1
+    100022: lysasome#1 2
+    100024: lysasome#1 3
+    100026: lysasome#1 4
+    100028: lysasome#1 5
+    100030: //RootNode
+    400000: Animal Cell
+    400002: lysasome - Copy (2)
+    400004: lysasome - Copy (2) - Copy
+    400006: lysasome - Copy (2) - Copy 1
+    400008: lysasome - Copy (2) - Copy 2
+    400010: lysasome - Copy (2) - Copy 3
+    400012: lysasome - Copy (2) 1
+    400014: lysasome - Copy (2) 2
+    400016: lysasome - Copy (2) 3
+    400018: lysasome#1
+    400020: lysasome#1 1
+    400022: lysasome#1 2
+    400024: lysasome#1 3
+    400026: lysasome#1 4
+    400028: lysasome#1 5
+    400030: //RootNode
+    2300000: lysasome - Copy (2)
+    2300002: lysasome - Copy (2) - Copy
+    2300004: lysasome - Copy (2) - Copy 1
+    2300006: lysasome - Copy (2) - Copy 2
+    2300008: lysasome - Copy (2) - Copy 3
+    2300010: lysasome - Copy (2) 1
+    2300012: lysasome - Copy (2) 2
+    2300014: lysasome - Copy (2) 3
+    2300016: lysasome#1
+    2300018: lysasome#1 1
+    2300020: lysasome#1 2
+    2300022: lysasome#1 3
+    2300024: lysasome#1 4
+    2300026: lysasome#1 5
+    3300000: lysasome - Copy (2)
+    3300002: lysasome - Copy (2) - Copy
+    3300004: lysasome - Copy (2) - Copy 1
+    3300006: lysasome - Copy (2) - Copy 2
+    3300008: lysasome - Copy (2) - Copy 3
+    3300010: lysasome - Copy (2) 1
+    3300012: lysasome - Copy (2) 2
+    3300014: lysasome - Copy (2) 3
+    3300016: lysasome#1
+    3300018: lysasome#1 1
+    3300020: lysasome#1 2
+    3300022: lysasome#1 3
+    3300024: lysasome#1 4
+    3300026: lysasome#1 5
+    4300000: Mesh lysasome#1
+    4300002: Mesh lysasome - Copy (2)
+    4300004: Mesh lysasome - Copy (2) - Copy
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0253999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
