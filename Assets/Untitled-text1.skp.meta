@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: e427263d9590b9c47bb125343502f351
-timeCreated: 1440178953
+guid: a12c8f95d4481294f981f155bff744a6
+timeCreated: 1440181512
 licenseType: Free
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
-  selectedNodes: 00000000010000000200000003000000040000000500000006000000
+  selectedNodes: 0000000001000000020000000300000004000000
   assetHash:
     serializedVersion: 2
-    Hash: ae88174719796d98782dd0e9d658a027
+    Hash: 872f96dade6c3979df155e62d557227e
   longitude: -105.24213899999999
   latitude: 40.018309000000002
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 53.3671532, y: 101.758118, z: 6.83397818}
-      lookAt: {x: 53.3671532, y: 0, z: 6.83397818}
+      position: {x: 97.0790787, y: 101.758118, z: 15.4190722}
+      lookAt: {x: 97.0790787, y: 3.46517486e-14, z: 15.4190722}
       up: {x: 0, y: 0, z: 1}
       fov: 35
       aspectRatio: 0
@@ -25,23 +25,18 @@ SketchUpImporter:
     scenes: []
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: Centrosome
-    100002: Chloroplast
-    100004: Peroxisome
-    100006: //RootNode
-    400000: Centrosome
-    400002: Chloroplast
-    400004: Peroxisome
-    400006: //RootNode
-    2300000: Centrosome
-    2300002: Chloroplast
-    2300004: Peroxisome
-    3300000: Centrosome
-    3300002: Chloroplast
-    3300004: Peroxisome
-    4300000: Mesh Peroxisome
-    4300002: Mesh Chloroplast
-    4300004: Mesh Centrosome
+    100000: Centrosome#2
+    100002: Chloroplast#1
+    100004: //RootNode
+    400000: Centrosome#2
+    400002: Chloroplast#1
+    400004: //RootNode
+    2300000: Centrosome#2
+    2300002: Chloroplast#1
+    3300000: Centrosome#2
+    3300002: Chloroplast#1
+    4300000: Mesh Centrosome#2
+    4300002: Mesh Chloroplast#1
   materials:
     importMaterials: 1
     materialName: 2
