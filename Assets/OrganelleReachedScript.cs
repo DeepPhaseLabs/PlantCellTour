@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class OraganelleReachedScript : MonoBehaviour {
+public class OrganelleReachedScript : MonoBehaviour {
 	public GameObject Organelle;
 	public GameObject OrganelleText;
     bool soundplayed;
