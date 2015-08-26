@@ -8,7 +8,7 @@ public class OrganelleReachedScript : MonoBehaviour {
     AudioSource sfx;
 	// Use this for initialization
 	void Start () {
-		OrganelleText.SetActive (false);
+	//	OrganelleText.SetActive (false);
         soundplayed = false;
 	}
 
@@ -22,7 +22,7 @@ public class OrganelleReachedScript : MonoBehaviour {
             soundplayed = true;
         }
 
-        OrganelleText.SetActive(true);
+    //    OrganelleText.SetActive(true);
 	}
 
 	// Update is called once per frame
