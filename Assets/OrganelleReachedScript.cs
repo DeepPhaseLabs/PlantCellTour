@@ -3,7 +3,7 @@ using System.Collections;
 
 public class OrganelleReachedScript : MonoBehaviour {
 	public GameObject Organelle;
-	public GameObject OrganelleText;
+//	public GameObject OrganelleText;
     bool soundplayed;
     AudioSource sfx;
 	// Use this for initialization
@@ -13,7 +13,7 @@ public class OrganelleReachedScript : MonoBehaviour {
 	}
 
 	void OnTriggerEnter (Collider other) {
-		Debug.Log ("Entered");
+		Debug.Log (other.gameObject.tag);
         sfx= Organelle.GetComponent<AudioSource>();
         sfx.clip = Organelle.GetComponent<AudioSource>().clip;
         if (!soundplayed)

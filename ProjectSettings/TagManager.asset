@@ -4,8 +4,20 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Nucleus
-  - Player
+  - nuketrigger
+  - ribtrigget
+  - ertrigger
+  - gtrigger
+  - vactrigger
+  - cltrigger
+  - mitrigger
+  - centtrigger
+  - perotrigger
+  - ers
+  - cbmain
+  - Head
+  - gzpt
+  - sub
   layers:
   - Default
   - TransparentFX
