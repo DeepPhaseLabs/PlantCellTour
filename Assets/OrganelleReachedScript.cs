@@ -32,7 +32,7 @@ float sfxvolume=1.0f;
             }
             sfx.Play();
         }
-        else if (a.isAudio())//!soundplayed)
+        else if (a.isAudio())
         {
             a.fadeOut();
             sfx.Play();
@@ -41,24 +41,8 @@ float sfxvolume=1.0f;
         {
 
             sfx.Play();
-            //  soundplayed = true;
         }
     }
-      /*  else
-        {
-            a.fadeOut();
-              if (audio1Volume <= 0.1) {
-         if(track2Playing == false)
-         {
-           track2Playing = true;
-           audio.clip = track2;
-           audio.Play();
-         }
-         
-         fadeIn();
-     }
- }
-        }*/
     void fadeOut()
     {
         if (sfxvolume > 0.1)
@@ -66,8 +50,6 @@ float sfxvolume=1.0f;
             sfxvolume -= (float)(0.5 * Time.deltaTime);
             sfx.volume = sfxvolume;
         }
-      //  return sfx.volume;
-
     }
     bool isAudio()
     {
