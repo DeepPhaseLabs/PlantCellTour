@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/MainMenu.unity
   - enabled: 1
-    path: Assets/_Scenes/CubeCell.unity
+    path: Assets/_Scenes/CellTour.unity
   - enabled: 1
     path: Assets/_Scenes/Presentation.unity
   - enabled: 1
