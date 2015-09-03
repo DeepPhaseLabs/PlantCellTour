@@ -87,6 +87,93 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &274880742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 274880743}
+  - 23: {fileID: 274880745}
+  - 102: {fileID: 274880744}
+  m_Layer: 0
+  m_Name: New Text (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &274880743
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 274880742}
+  m_LocalRotation: {x: 0, y: .965925813, z: 0, w: -.258819282}
+  m_LocalPosition: {x: 1.97000003, y: 9.77589035, z: -15.1300001}
+  m_LocalScale: {x: .49999997, y: 1, z: .049999997}
+  m_Children: []
+  m_Father: {fileID: 1945412809}
+  m_RootOrder: 2
+--- !u!102 &274880744
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 274880742}
+  m_Text: "Process:\n\nArchitecture and Concept\r:\n-App that gives a guided tour
+    of the inside of a plant cell\r\n-User starts at Main Menu with a \u201CStart\u201D
+    button\r\n-The camera is on rails, but head tracking will be \navailable to the
+    user\r\n-The camera will stop at each organelle and will continue \nonce the user
+    clicks an icon using the Cardboard button\r\n-At each stop, a narrator will describe
+    the different \norganelles to the user\r\n\r\nCamera Rails\r:\nAt first, we attempted
+    animating the camera within Unity\nbut this approach did not work with the intended
+    \ntriggering functions. We then tried implementing several \nspline systems including
+    Hermite Spline Controller3 and \nSpline Tools4\r. Finally, we turned to CameraPath5
+    at the \nrecommendation of DrashVR, creator of the VR game \n\u2018Titans of Space\u2019\r.\n\nNarration\r:\nUpon
+    arriving at each organelle, the user hears a short \ndescription about the organelle\r.
+    To do this, we made and \nattached a script to a box object with a collider\r.
+    When \nthe submersible collided with the box, a trigger would \nbegin an audio
+    clip\r."
+  m_OffsetZ: 0
+  m_CharacterSize: .579999983
+  m_LineSpacing: .800000012
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 1
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &274880745
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 274880742}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &501014073
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,7 +246,80 @@ Transform:
   m_LocalScale: {x: .154241338, y: .154241413, z: .154241413}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
+--- !u!1 &505075354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 505075358}
+  - 33: {fileID: 505075357}
+  - 64: {fileID: 505075356}
+  - 23: {fileID: 505075355}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &505075355
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505075354}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 760207e0f521c4a428b189ea4473fe27, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &505075356
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505075354}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &505075357
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505075354}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &505075358
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505075354}
+  m_LocalRotation: {x: -.183012828, y: -.683012724, z: .683012605, w: -.183012858}
+  m_LocalPosition: {x: 2.75999999, y: 13.0699997, z: 88.75}
+  m_LocalScale: {x: .899999976, y: .600000024, z: .600000024}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
 --- !u!1 &552003691
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,6 +393,95 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2007646490}
   m_RootOrder: 4
+--- !u!1 &559450072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 559450073}
+  - 23: {fileID: 559450075}
+  - 102: {fileID: 559450074}
+  m_Layer: 0
+  m_Name: New Text (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &559450073
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559450072}
+  m_LocalRotation: {x: 0, y: .965925872, z: 0, w: .258818954}
+  m_LocalPosition: {x: 10.7799997, y: 9.77589035, z: -10.5799999}
+  m_LocalScale: {x: .500000119, y: 1, z: .0500000231}
+  m_Children: []
+  m_Father: {fileID: 1945412809}
+  m_RootOrder: 3
+--- !u!102 &559450074
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559450072}
+  m_Text: "3D Graphics and Animation\r:\n1) Steps to implementing 3D models:\r\n-Create
+    basic model from shapes as a placeholder.\r\n-Make materials/colorings for pieces
+    of the organelle.\r\n-Apply materials to rough models to test for major defects
+    \n(ex. some objects becoming permanently invisible).\r\n-Resize objects to realistic
+    proportions\r.\n-Import the final models from 3D Warehouse. \r\n-Place previously
+    made materials onto organelle models\r.\n-For organelles that do not have dedicated
+    models on \n3D Warehouse, keep the rough models and add details.\r\n2) Submersible
+    that user \u201Csits\u201D in\r:\n-Works with head tracking. \r\n-Button to return
+    to Main Menu\r.\n-Back button that takes you to beginning of the tour\r.\n\r\nTriggering
+    and Buttons\r:\nWe needed a \u201Cmain menu\u201D and an \u201Cabout\u201D scene.
+    \r\nInitially, we used canvas and added choice buttons. \nHowever, the canvas
+    system turned out to be \nincompatible in VR mode in Google Cardboard.\r\nWe eliminated
+    this problem by using a sprite, which \nallows users to be in a 3D space. Script
+    and event \ntrigger were implemented on the buttons.\r\nOne issue was learning
+    how to integrate the splines and \ncamera path animator with the triggers.  It
+    took several \nmeetings of trial and error before we solved the problem.\r"
+  m_OffsetZ: 0
+  m_CharacterSize: .579999983
+  m_LineSpacing: .800000012
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 1
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &559450075
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559450072}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &604736210
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +552,89 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
+--- !u!1 &715467402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 715467405}
+  - 23: {fileID: 715467404}
+  - 102: {fileID: 715467403}
+  m_Layer: 0
+  m_Name: New Text (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!102 &715467403
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 715467402}
+  m_Text: "Our Tools\r\n\r\nGoogle Cardboard:\r\nInitially, DPL considered using Oculus
+    Rift and Neurosky. \nGoogle Cardboard, plus its SDK and \"Treasure Hunt\" \ndemo,
+    \ turned out to be a more practical first step.\r\r\n\r\nAndroid Phones:\r\nMotorola
+    Moto-X 2013  (equipped with gyroscopic sensor)\r\n\r\nUnity3d (personal edition)\r:\nVarious
+    selection of available tutorials and demos.\n\r\nC-Sharp:\r\nThe programming language
+    that Unity scripts use\r.\nLearning tutorials from c-sharpcorner.com and tech.pro.\n\r\nGithub
+    and SourceTree\r:\nA distributed source control tool\r.\nSourceTree was easier
+    to navigate than Github Desktop\r.\n\r\nOther Software Used\r:\nVisual Studio/MonoDevelop\r\nGoogle
+    Sketchup and 3D Warehouse\r\nBlender (3D model design program)\r"
+  m_OffsetZ: 0
+  m_CharacterSize: .579999983
+  m_LineSpacing: .800000012
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 1
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &715467404
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 715467402}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &715467405
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 715467402}
+  m_LocalRotation: {x: 0, y: -.707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: -6.48692131, y: 9.77589035, z: -9.86999989}
+  m_LocalScale: {x: .5, y: 1, z: .0500000007}
+  m_Children: []
+  m_Father: {fileID: 1945412809}
+  m_RootOrder: 1
 --- !u!1001 &739346097
 Prefab:
   m_ObjectHideFlags: 0
@@ -787,7 +1118,7 @@ Transform:
   - {fileID: 1190648693}
   - {fileID: 1274411692}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!1 &1037625149
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,7 +1228,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!1 &1154811100
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,6 +1388,87 @@ Transform:
   m_Children: []
   m_Father: {fileID: 859544323}
   m_RootOrder: 2
+--- !u!1 &1361882138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1361882139}
+  - 23: {fileID: 1361882141}
+  - 102: {fileID: 1361882140}
+  m_Layer: 0
+  m_Name: New Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1361882139
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1361882138}
+  m_LocalRotation: {x: 0, y: -.258819073, z: 0, w: .965925813}
+  m_LocalPosition: {x: -6.48692131, y: 9.77589035, z: .319999695}
+  m_LocalScale: {x: .5, y: 1, z: .0500000007}
+  m_Children: []
+  m_Father: {fileID: 1945412809}
+  m_RootOrder: 0
+--- !u!102 &1361882140
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1361882138}
+  m_Text: "Background\r\n\nGetting Started\r\n\r\nEarlier this year, Deep Phase Labs
+    decided that it wanted \nto run a summer internship program for high school \nstudents.\r
+    5 students, all interested in science and \ncomputer programming, signed up. Collectively
+    their \nteam was named the \u201CWavelets\u201D\r, and met three days a \nweek
+    at District Hall, a space for Boston\u2019s \n\u201Cinnovation community\u201D
+    to meet and collaborate\r.\n\r\nGoals\r\n\r\nInitial goal: make a virtual reality
+    app for Android that has \nscientific and educational applications\r.\nWavelets
+    decided to create a tour of a plant cell\r.\n"
+  m_OffsetZ: 0
+  m_CharacterSize: .579999983
+  m_LineSpacing: .800000012
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 1
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1361882141
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1361882138}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1634170025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,6 +1542,95 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2007646490}
   m_RootOrder: 1
+--- !u!1 &1785106784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1785106785}
+  - 23: {fileID: 1785106787}
+  - 102: {fileID: 1785106786}
+  m_Layer: 0
+  m_Name: New Text (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1785106785
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785106784}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: 10.7799997, y: 9.77589035, z: -.409999996}
+  m_LocalScale: {x: .500000119, y: 1, z: .0500000343}
+  m_Children: []
+  m_Father: {fileID: 1945412809}
+  m_RootOrder: 4
+--- !u!102 &1785106786
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785106784}
+  m_Text: "Outlook:\n1) Technical takeaways:\r\nUnity was easy to learn for beginners
+    due to the depth \nand breadth of online resources\r.\nGoogle Cardboard, along
+    with the functionality built into \nthe SDK, is more than enough for creating
+    simple to \nmoderately complex VR apps\r.\nAndroid phones were compatible with
+    Unity, but we did \nexperience some problems with lagging.\r\nSourceTree was a
+    great alternative to GitHub Desktop\r.\n3D Warehouse has lots of high quality
+    3D content for free\r.\n\n2) Project management takeaways:\r\nIn working with
+    a team, communication is key. \r\nDon\u2019t be afraid to ask for help, whether
+    it be from a \nteammate or the creator of a program you are trying to \nuse \u2013
+    if someone has already solved a problem that you \nhave run into, there is no
+    sense in wasting time trying to \nfigure it out yourself.\r\nWhen planning a project,
+    think about the big picture but \ndo not forget about the details of how you are
+    going to \nimplement your ideas\r.\nModifying other peoples\u2019 demos can be
+    a great way to \nlearn skills before jumping into your own project.\r\nTake the
+    time to study the tools you are using \u2013 a few \nminutes spent watching a
+    tutorial or reading a manual \ncan save lots of frustration down the road\r."
+  m_OffsetZ: 0
+  m_CharacterSize: .579999983
+  m_LineSpacing: .800000012
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 1
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1785106787
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785106784}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1811042522
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,6 +1773,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2007646490}
   m_RootOrder: 3
+--- !u!1 &1945412808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1945412809}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1945412809
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1945412808}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.71000004, y: 18.6800003, z: 86.5100021}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1361882139}
+  - {fileID: 715467405}
+  - {fileID: 274880743}
+  - {fileID: 559450073}
+  - {fileID: 1785106785}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
 --- !u!1 &2007646489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,7 +1837,7 @@ Transform:
   - {fileID: 552003695}
   - {fileID: 2055568677}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!1 &2055568673
 GameObject:
   m_ObjectHideFlags: 0
