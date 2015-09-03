@@ -72,14 +72,14 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: com.DeepPhaseLabs.PlantCellTour
-  bundleVersion: 1.1
+  bundleVersion: 1.2
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
-  virtualRealitySupported: 0
+  virtualRealitySupported: 1
   productGUID: 9243a47cdb6bf804186ee1e7d5287818
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -137,7 +137,10 @@ PlayerSettings:
     m_Icons:
     - m_Icon: {fileID: 2800000, guid: 287fa7c9956083744a3be4c4962f6815, type: 3}
       m_Size: 128
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Android
+    m_StaticBatching: 1
+    m_DynamicBatching: 1
   m_BuildTargetGraphicsAPIs: []
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
