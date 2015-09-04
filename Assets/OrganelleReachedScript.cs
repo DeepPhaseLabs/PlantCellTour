@@ -42,6 +42,7 @@ public class OrganelleReachedScript : MonoBehaviour {
         {
 
             sfx.Play();
+            soundplayed = true;
         }
     }
     //void fadeOut()
