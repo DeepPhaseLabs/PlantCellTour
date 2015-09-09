@@ -8,6 +8,13 @@ public class OrganelleReachedScript : MonoBehaviour {
      bool soundplayed=false;
 //float sfxvolume=1.0f;
     AudioSource sfx;
+
+
+	// audiosource array to stop all sounds  ( see method StopAllAudio below)
+	private AudioSource[] allAudioSources;
+
+
+
 	void Start () {
         //if (prevOrg != null)
         //{
@@ -40,7 +47,7 @@ public class OrganelleReachedScript : MonoBehaviour {
         //else
         if(!soundplayed)
         {
-
+			StopAllAudio();
             sfx.Play();
             soundplayed = true;
         }
@@ -57,6 +64,17 @@ public class OrganelleReachedScript : MonoBehaviour {
     //{
     //    return sfx.isPlaying;
     //}
+
+
+	
+	void StopAllAudio() {
+		allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+		foreach( AudioSource audioS in allAudioSources) {
+			audioS.Stop();
+		}
+	}
+
+
 	}
 
 	// Update is called once per frame
